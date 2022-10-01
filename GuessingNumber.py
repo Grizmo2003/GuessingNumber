@@ -11,15 +11,15 @@ def isPrime(number: int):
             return False
     return True
 
-def divisor(playerGuess: int):
+def divisor():
     divisorNumber = []
-    for i in range(1, playerGuess + 1):
-        if playerGuess % i == 0:
+    for i in range(2, question + 1):
+        if question % i == 0:
             divisorNumber.append(i)
     return divisorNumber
 
 def firstHint(playerGuess: int):
-    divisorList = divisor(playerGuess)
+    divisorList = divisor()
     return divisorList[randint(0, len(divisorList) - 1)]
 
 def gcd(a, b):
