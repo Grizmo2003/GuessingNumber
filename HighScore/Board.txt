@@ -1,0 +1,5 @@
+|         Player Name            |  Right at  |  Playing Time |  Question  |          Date       |
+| Cheating                       |          1 |         00:06 |       3462 | 2022/10/01 21:26:13 |
+| Lucky                          |          1 |         01:21 |       4896 | 2022/10/01 21:27:03 |
+| SuperLuck                      |          1 |         00:06 |      82979 | 2022/10/01 21:29:38 |
+| NotCheat                       |          1 |         00:09 |      57260 | 2022/10/01 21:31:36 |

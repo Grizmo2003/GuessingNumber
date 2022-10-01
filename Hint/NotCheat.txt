@@ -1,0 +1,4 @@
+
+Free hint:
+Guessing number have digit 9: False
+________________________
