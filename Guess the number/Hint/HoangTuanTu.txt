@@ -1,0 +1,37 @@
+
+Free hint:
+One of divisor of Guessing number is: 2
+________________________
+1-th hint:
+Great common divisor of Guessing number and 200 is 20
+________________________
+2-th hint:
+Guessing number have digit 9: True
+________________________
+3-th hint:
+Great common divisor of Guessing number and 980 is 20
+________________________
+4-th hint:
+Guessing number is bigger than 490
+________________________
+5-th hint:
+Great common divisor of Guessing number and 590 is 10
+________________________
+6-th hint:
+Guessing number is not: 26126
+________________________
+7-th hint:
+Guessing number is bigger than 790
+________________________
+8-th hint:
+Guessing number is not: 60253
+________________________
+9-th hint:
+Guessing number is not: 5235
+________________________
+10-th hint:
+Guessing number have 5 digit
+________________________
+11-th hint:
+One of guessing number multiple is 7205380
+________________________
