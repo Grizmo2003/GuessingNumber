@@ -18,7 +18,7 @@ def divisor():
             divisorNumber.append(i)
     return divisorNumber
 
-def firstHint(playerGuess: int):
+def firstHint():
     divisorList = divisor()
     return divisorList[randint(0, len(divisorList) - 1)]
 
@@ -60,7 +60,7 @@ def hint(playerGuess: int):
     hint = randint(1, 7)
     if hint == 1:
         if not isPrime(question):
-            return f"One of divisor of Guessing number is: {firstHint(playerGuess)}"
+            return f"One of divisor of Guessing number is: {firstHint()}"
         return "Guessing number is a prime number"
 
     elif hint == 2:
@@ -94,7 +94,7 @@ def playerInput():
         playerGuess = input("Your number is: ")
         try:
             playerGuess = int(playerGuess)
-            if playerGuess > 100 and playerGuess < 99999:
+            if playerGuess >= 100 and playerGuess <= 99999:
                 return playerGuess
             print("You have to input number form 100 to 99999")
         except:
